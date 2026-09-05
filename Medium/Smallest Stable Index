@@ -1,0 +1,10 @@
+# Smallest Stable Index
+
+## Problem Statement
+
+You are given an integer array `nums` of length `n` and an integer `k`.
+
+For every index `i`, define its **instability score** as:
+
+```text
+max(nums[0..i]) - min(nums[i..n-1])
